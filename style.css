@@ -1,0 +1,94 @@
+body
+{
+    background:#707070;
+    position: absolute;
+    top: 160px;
+    left: 34%;
+}
+
+.ovel{
+    background-color: chartreuse;
+    position: absolute;
+    top: 1px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.li
+{
+    position: absolute;
+    top: 140px;
+    left: 316px;
+    background: #707070;
+    transform: rotate(49.6deg);
+    height: 225px;
+    width: 225px;
+    border-radius: 0 0 0 5px;
+    border: 30px solid #000;
+    border-top: none;
+    border-right: none;
+    transition: 0.5s;
+}
+#l2
+{
+    top: 140px;
+    left: -75px;
+    transform: rotate(-140deg);
+}
+.ring{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height: 500px;
+    width: 500px;
+    border: 30px solid #f0f0f0;
+    border-radius: 50%;
+}
+#r3
+{
+    top: -53px;
+    left: -52px;
+    height: 550px;
+    width: 550px;
+    border: 30px solid black;
+}
+.img{
+    position: absolute;
+    top: -30px;
+    left: 60px;
+    height: 550px;
+    width: 350px;
+    opacity: 0;
+    transition: 0.2s;
+}
+.body:hover .l1
+{
+    
+    
+    background-color: #0000;
+}
+.body:hover #l2
+{
+    
+    top: 63px;
+    left: 70px;
+    height: 350px;
+    width: 350px;
+    background-color: #0000;
+    transform: rotate(-135deg);
+}
+.body:hover #l3
+{
+    
+    top: 63px;
+    left: 50px;
+    height: 350px;
+    width: 350px;
+    background-color: #0000;
+    transform: rotate(42deg);
+}
+.body:hover .img
+{
+    opacity:1 ;
+    transition: 0.5s;
+}
